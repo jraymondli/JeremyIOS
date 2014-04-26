@@ -19,6 +19,7 @@
 		3FB172B6190C1C0100CD6DD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3FB1729E190C1C0100CD6DD8 /* UIKit.framework */; };
 		3FB172BE190C1C0100CD6DD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3FB172BC190C1C0100CD6DD8 /* InfoPlist.strings */; };
 		3FB172C0190C1C0100CD6DD8 /* ToDoListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB172BF190C1C0100CD6DD8 /* ToDoListTests.m */; };
+		3FB172CA190C217E00CD6DD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FB172C9190C217E00CD6DD8 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,7 @@
 		3FB172BB190C1C0100CD6DD8 /* ToDoListTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ToDoListTests-Info.plist"; sourceTree = "<group>"; };
 		3FB172BD190C1C0100CD6DD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3FB172BF190C1C0100CD6DD8 /* ToDoListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ToDoListTests.m; sourceTree = "<group>"; };
+		3FB172C9190C217E00CD6DD8 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 			children = (
 				3FB172A9190C1C0100CD6DD8 /* XYZAppDelegate.h */,
 				3FB172AA190C1C0100CD6DD8 /* XYZAppDelegate.m */,
+				3FB172C9190C217E00CD6DD8 /* Main.storyboard */,
 				3FB172AC190C1C0100CD6DD8 /* Images.xcassets */,
 				3FB172A1190C1C0100CD6DD8 /* Supporting Files */,
 			);
@@ -220,6 +223,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FB172CA190C217E00CD6DD8 /* Main.storyboard in Resources */,
 				3FB172A5190C1C0100CD6DD8 /* InfoPlist.strings in Resources */,
 				3FB172AD190C1C0100CD6DD8 /* Images.xcassets in Resources */,
 			);
